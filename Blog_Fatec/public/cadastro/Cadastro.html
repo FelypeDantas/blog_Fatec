@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/Login_Cadastro.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="../assets/fatec_ra_metropolitana_sp_capital_zona_leste_cor.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="main-cadastro">
+        <div class="left-cadastro">
+            <h1>Faça Seu Cadastro</h1>
+            <img src="../assets/computer.svg" class="left-cadastro-image" alt="Computador animado">
+        </div>
+        <div class="right-cadastro">
+            <div class="card-cadastro">
+                <a class="nav-link" href="#">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="modo-claro">
+                        <label class="form-check-label" for="modo-claro">Modo noturno</label>
+                    </div>
+                </a>
+                <h1>Cadastro</h1>
+                <div class="textfield">
+                    <label for="usuario"> Nome de Usuário</label>
+                    <input type="text" name="usuario" placeholder="Nome">
+                </div>
+                <div class="textfield">
+                    <label for="senha"> Crie sua Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Confirme sua Senha</label>
+                    <input type="password" name="csenha" placeholder="Senha">
+                </div>
+                <button class="btn-cadastro">Cadastrar</button>
+                <nav>
+                    <a href="../login/index.html">Login</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
