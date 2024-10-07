@@ -9,3 +9,5 @@ function criaHasheSalSenha(senha){
 }
 
 export default criaHasheSalSenha;
+
+WigmA2fcHHJqKCLc
