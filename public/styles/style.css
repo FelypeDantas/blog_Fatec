@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   --cor-principal: #38b0b0dd;
   --cor-secundaria: hsla(180, 72%, 18%, 0.867);
@@ -65,4 +70,25 @@ input[type="checkbox"]:focus {
     --bs-btn-color: white;
   }
 
+}
+
+.texto__curriculo{
+  margin-top: 1.5rem;
+}
+
+.texto__explicativo, .lista__explicativa{
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.img-curriculo {
+  max-width: 40%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.imagens {
+  align-items: center;
+  align-self: center;
 }
