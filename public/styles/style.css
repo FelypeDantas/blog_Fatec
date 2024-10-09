@@ -1,5 +1,7 @@
 body {
   --cor-principal: #38b0b0dd;
+  --cor-secundaria: hsla(180, 72%, 18%, 0.867);
+   height: 400px;
 }
 
 #logo {
@@ -23,7 +25,7 @@ input[type="checkbox"]:focus {
 }
 
 .banner-l{
-  background-image: url();
+  background-image: url(../assets/banner.png);
 }
 
 .banners{
@@ -37,4 +39,26 @@ input[type="checkbox"]:focus {
 
 .banners-titulo{
   --bs-bg-opacity: .2;
+}
+
+.botao-padrao{
+  background: var(--cor-principal);
+  color: black;
+}
+
+.botao-padrao:hover{
+  background: var(--cor-secundaria);
+}
+
+[data-bs-theme="dark"]{
+  color: white;
+
+  .nav-link, .card-body, .offcanvas, .accordion, .btn{
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-accordion-color: white;
+    --bs-btn-color: white;
+  }
+
 }
