@@ -92,3 +92,13 @@ input[type="checkbox"]:focus {
   align-items: center;
   align-self: center;
 }
+
+.atencao{
+  text-align: center;
+  font-weight: 400;
+  font-size: large;
+}
+
+.sub{
+  color: var(--cor-principal);
+}
