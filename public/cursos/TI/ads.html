@@ -83,11 +83,42 @@
                 </p>
             </div>
         </section>
+        <form class="inputs">
+            <div class="form-group">
+                <label for="nomeVaga">Tipo de vaga</label>
+                <input type="text" id="nomeVaga" placeholder="Digite o tipo de vaga" required>
+            </div>
+            <div class="form-group">
+                <label for="emailContato">Curso</label>
+                <select id="cursoVaga">
+                    <option value="ads">Análise e Desenvolvimento de Sistemas (ADS)</option>
+                    <option value="dsm">Desenvolvimento de Sistemas Multimídia (DSM)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ObjetivoVaga">Objetivo</label>
+                <input type="text" id="ObjetivoVaga" placeholder="Digite o objetivo descrito" required>
+            </div>
+            <div class="form-group">
+                <label for="beneficiosVagas">Horarios</label>
+                <input type="text" id="beneficiosVagas" placeholder="xx:xx - xx:xx">
+            </div>
+            <div class="form-group">
+                <label for="linkVaga">link</label>
+                <input type="text" id="linkVaga" placeholder="insira o link">
+            </div>
+            <div class="form-group">
+                <label for="beneficiosVagas">Outras informacoes</label>
+                <textarea type="text" id="beneficiosVagas" placeholder="Outras informacoes, se houver"></textarea>
+            </div>
+
+            <button class="btn">Enviar</button>
+        </form>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
-    <script src="../scripts/script.js"></script>
+    <script src="../../scripts/script.js"></script>
 </body>
 
 </html>

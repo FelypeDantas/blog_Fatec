@@ -103,3 +103,41 @@ input[type="checkbox"]:focus {
 .sub{
   color: var(--cor-principal);
 }
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+
+.inputs input, .form-group textarea .btn {
+  border-radius: 25px;
+  padding: 1rem;
+  border: none;
+}
+
+.inputs .form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputs .form-group label {
+  font-weight: bold;
+}
+
+.inputs .btn{
+  background: #CAD4FA;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.inputs .btn:hover {
+  background: #4e75ff;
+}
